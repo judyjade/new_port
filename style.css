@@ -3,7 +3,7 @@
 @import url('clash-grotesk.css');
 
 * {
-    margin: 0 20px;
+    margin: 0 10px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -921,6 +921,7 @@ a {
     top: 0;
     left: 0;
     opacity: 0;
+    border-radius: 20px;
 }
 
 .slide img:first-child {

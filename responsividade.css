@@ -1,20 +1,8 @@
 /* Responsividade para mobile*/
 @media screen and (max-width: 768px) {
 
-    .fixed-button {
-        position: relative;
-        display: none;
-        align-items: center;
-        justify-content: center;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: var(--color-white);
-        color: var(--color-black);
-        cursor: pointer;
-        z-index: 1000;
-        opacity: 0;
-        transition: opacity 0.5s ease, box-shadow 0.5s ease;
+    * {
+        margin: 0;
     }
 
     .container {
