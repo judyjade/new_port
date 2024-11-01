@@ -1,6 +1,10 @@
 /* Responsividade para iPad (tablet) */
 @media (max-width: 1024px) {
 
+    * {
+        margin: 5px;
+    }
+
     .container {
         padding: 0;
     }
@@ -37,6 +41,12 @@
 
     .imagem-sobre {
         justify-content: center;
+    }
+
+    .imagem-sobre img {
+        margin-left: 50px;
+        margin-bottom: 90px;
+        width: 78%;
     }
 
     .complemento-sobre {
