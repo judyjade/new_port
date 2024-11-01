@@ -1,5 +1,5 @@
-/* Responsividade para iPad (tablet) */
-@media (max-width: 1024px) {
+/* Responsividade para mobile*/
+@media screen and (max-width: 768px) {
 
     .container {
         padding: 0;
