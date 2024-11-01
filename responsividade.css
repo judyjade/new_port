@@ -1,10 +1,6 @@
 /* Responsividade para iPad (tablet) */
 @media (max-width: 1024px) {
 
-    * {
-        margin: 5px;
-    }
-
     .container {
         padding: 0;
     }
