@@ -5,6 +5,16 @@
         padding: 0;
     }
 
+    .complemento-inicio {
+        bottom: 2rem;
+        width: 100vw;
+        padding: 0rem 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+    }    
+
     /************************** SOBRE ***/
     .sobre {
         height: auto;
