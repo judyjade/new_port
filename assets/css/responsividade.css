@@ -72,7 +72,7 @@
     }
 
     .titulo-servicos h1 {
-        font-size: 6rem;
+        font-size: 3em;
     }
 
     .descricao-servicos {
@@ -101,7 +101,7 @@
     }
 
     .headline-portfolio .titulo {
-        font-size: 6rem;
+        font-size: 3em;
     }
 
     .headline-portfolio .descricao {
@@ -195,7 +195,7 @@
     }
 
     .logo-contato img{
-        width: 100%;
+        width: 50%;
         max-height: 500px;
         object-fit: cover;
     }
