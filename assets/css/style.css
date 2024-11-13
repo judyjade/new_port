@@ -977,7 +977,7 @@ a {
     font-size: 1.5rem;
     line-height: 1.4;
     letter-spacing: 1.5px;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.3rem;
 }
 
 .conteudo-textos-case span {
@@ -992,6 +992,10 @@ a {
     color: var(--color-black);
     font-weight: bold;
     letter-spacing: 1.2px;
+}
+
+h6 {
+    margin: 10px;
 }
 
 /*************** CONTATO *****/
