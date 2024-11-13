@@ -1,6 +1,13 @@
 /* Responsividade para iPad (tablet) */
 @media (max-width: 1024px) {
 
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .container {
         padding: 0;
     }
@@ -72,7 +79,7 @@
     }
 
     .titulo-servicos h1 {
-        font-size: 3em;
+        font-size: 5rem;
     }
 
     .descricao-servicos {
@@ -101,7 +108,7 @@
     }
 
     .headline-portfolio .titulo {
-        font-size: 3em;
+        font-size: 5rem;
     }
 
     .headline-portfolio .descricao {
@@ -198,6 +205,8 @@
         width: 50%;
         max-height: 500px;
         object-fit: cover;
+        text-align: center;
+        border-radius: 10px;
     }
 
     .formulario-contato {
