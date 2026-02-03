@@ -883,7 +883,10 @@ a {
 .case1,
 .case2,
 .case3,
-.case4 {
+.case4,
+.case5,
+.case6,
+.case7 {
     width: 100%;
     height: 70vh;
     display: flex;
@@ -892,7 +895,7 @@ a {
 }
 
 .imagens-case {
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
