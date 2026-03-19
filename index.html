@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SxFreimann</title>
+    <title>SxFreimann | Desenvolvedora Web Freelancer</title>
 
-    <link rel="website icon" href="./assets/img/logo - Copia.png" />
+    <link rel="website icon" href="./assets/img/logo.png" />
 
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -15,8 +15,6 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
-      crossorigin="anonymous"
     />
 
     <!-- AOS -->
@@ -25,24 +23,26 @@
 
   <body>
     <!--Botão voltar ao topo-->
-    <div id="backToTop" class="fixed-button">
+    <div id="backToTop" class="fixed-button" aria-label="Voltar ao topo">
       <i class="bi bi-chevron-up"></i>
     </div>
 
     <!--Botão WhatsApp-->
-    <div id="whatsappButton" class="fixed-button">
+    <a href="https://wa.link/oayh7h" target="_blank" id="whatsappButton" class="fixed-button" aria-label="Falar no WhatsApp">
       <i class="bi bi-whatsapp"></i>
-    </div>
+    </a>
 
     <!--Container Geral-->
     <div class="container">
       <!--Header-->
       <header class="header">
         <div class="logo">
-          <img src="assets/img/logo.png" alt="" />
+          <a href="#inicio">
+            <img src="assets/img/logo.png" alt="SxFreimann Logo" />
+          </a>
         </div>
         <div class="menu">
-          <label class="hamburger">
+          <label class="hamburger" for="menuToggle">
             <input type="checkbox" id="menuToggle" />
             <svg viewBox="0 0 32 32">
               <path
@@ -85,10 +85,10 @@
             >
               <p>
                 SxFreimann foi criada com o objetivo de ajudar pequenas, médias
-                e grandes empresas a construirem sua presença digital.
+                e grandes empresas a construírem sua presença digital.
               </p>
             </div>
-            <button
+            <a href="#contato"
               class="cta"
               data-aos="fade-up"
               data-aos-delay="400"
@@ -99,7 +99,7 @@
                 <path d="M1,5 L11,5"></path>
                 <polyline points="8 1 12 5 8 9"></polyline>
               </svg>
-            </button>
+            </a>
           </div>
           <div class="complemento-inicio">
             <h2>
@@ -113,13 +113,12 @@
       <!--Sobre-->
       <section id="sobre" class="sobre">
         <div class="container-sobre">
-          <!--Slide Sobre-->
           <div
             class="headline-sobre"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div class="headline-scroll" id="headline-scroll">
+            <div class="headline-scroll">
               <span class="bold">SOBRE</span>
               <span class="divisor"></span>
               <span class="light">SOBRE</span>
@@ -148,20 +147,10 @@
                 </p>
               </div>
               <div class="redes-sociais">
-                <a
-                  href="https://www.instagram.com/sxfreimann/profilecard/?igsh=MTY5eXhlZDk3MGZ3ZA=="
-                  >INSTAGRAM<i class="bi bi-arrow-right"></i
-                ></a>
-                <a href="https://github.com/judyjade"
-                  >GITHUB<i class="bi bi-arrow-right"></i
-                ></a>
-                <a href="https://wa.link/oayh7h"
-                  >WHATSAPP<i class="bi bi-arrow-right"></i
-                ></a>
-                <a
-                  href="https://www.linkedin.com/in/stefany-souza-freimann-52922b312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  >LINKEDIN<i class="bi bi-arrow-right"></i
-                ></a>
+                <a href="https://www.instagram.com/sxfreimann/" target="_blank">INSTAGRAM<i class="bi bi-arrow-right"></i></a>
+                <a href="https://github.com/judyjade" target="_blank">GITHUB<i class="bi bi-arrow-right"></i></a>
+                <a href="https://wa.link/oayh7h" target="_blank">WHATSAPP<i class="bi bi-arrow-right"></i></a>
+                <a href="https://www.linkedin.com/in/stefany-souza-freimann-52922b312" target="_blank">LINKEDIN<i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
             <div
@@ -170,13 +159,10 @@
               data-aos-duration="1000"
             >
               <div class="imagem-sobre">
-                <img src="assets/img/minha-foto.jpg" alt="Uma foto minha" />
+                <img src="assets/img/minha-foto.jpg" alt="Stefany Souza Freimann" />
               </div>
               <div class="complemento-sobre">
-                <img
-                  src="assets/img/fundo-foto.png"
-                  alt="Uma imagem de fundo da minha foto"
-                />
+                <img src="assets/img/fundo-foto.png" alt="Fundo decorativo" />
               </div>
             </div>
           </div>
@@ -191,72 +177,33 @@
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <div class="headline-skills">
-            <div
-              class="text-headline-skills"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-duration="1000"
-            >
-              <h2>Minhas Skills</h2>
-              <p>
-                Minhas habilidades e tecnologias que utilizo no meu dia-a-dia
-                como Dev Freelancer.
-              </p>
-            </div>
+          <div class="text-headline-skills">
+            <h2>Minhas Skills</h2>
+            <p>
+              Minhas habilidades e tecnologias que utilizo no meu dia-a-dia
+              como Dev Freelancer.
+            </p>
           </div>
           <div class="conteudo-skills">
-            <div
-              class="box-skills"
-              data-aos="fade-up"
-              data-aos-delay="300"
-              data-aos-duration="1000"
-            >
+            <div class="box-skills" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-palette"></i>
-              <h3>Criação de Layout.</h3>
-              <p>
-                Crio o Layout do site antes de desenvolve-lo. Sendo possível
-                visualizar como ficaria o resultado final.
-              </p>
+              <h3>Criação de Layout</h3>
+              <p>Crio o Layout do site antes de desenvolvê-lo, permitindo visualizar o resultado final.</p>
             </div>
-            <div
-              class="box-skills"
-              data-aos="fade-up"
-              data-aos-delay="400"
-              data-aos-duration="1000"
-            >
+            <div class="box-skills" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-layers"></i>
-              <h3>Planejamento.</h3>
-              <p>
-                Organização das etapas de desenvolvimento, datas de finalização
-                do projeto e entrega.
-              </p>
+              <h3>Planejamento</h3>
+              <p>Organização das etapas de desenvolvimento, prazos e entrega do projeto.</p>
             </div>
-            <div
-              class="box-skills"
-              data-aos="fade-up"
-              data-aos-delay="500"
-              data-aos-duration="1000"
-            >
+            <div class="box-skills" data-aos="fade-up" data-aos-delay="500">
               <i class="bi bi-globe"></i>
-              <h3>Atendimento Global.</h3>
-              <p>
-                Atendimento e levantamento de orçamento para qualquer lugar do
-                Brasil e do Mundo!
-              </p>
+              <h3>Atendimento Global</h3>
+              <p>Atendimento e orçamentos para clientes em qualquer lugar do Brasil e do Mundo!</p>
             </div>
-            <div
-              class="box-skills"
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-duration="1000"
-            >
+            <div class="box-skills" data-aos="fade-up" data-aos-delay="600">
               <i class="bi bi-graph-up"></i>
-              <h3>Crescimento Garantido.</h3>
-              <p>
-                Tenha certeza que seu negócio irá decolar, seja em vendas ou
-                serviços prestados.
-              </p>
+              <h3>Crescimento</h3>
+              <p>Estratégias para que seu negócio decole, seja em vendas ou prestação de serviços.</p>
             </div>
           </div>
         </div>
@@ -266,465 +213,155 @@
       <!--Serviços-->
       <section id="servicos" class="servicos">
         <div class="container-servicos">
-          <div
-            class="headline-servicos"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
+          <div class="headline-servicos" data-aos="fade-up">
             <div class="titulo-servicos">
               <h1>Serviços</h1>
             </div>
-            <div
-              class="descricao-servicos"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-duration="1000"
-            >
+            <div class="descricao-servicos">
               <p>Um pouco sobre os serviços que realizo como Freelancer.</p>
             </div>
           </div>
           <div class="servicos-cards">
-            <!--Serviço 1-->
-            <div
-              class="card-servicos-left"
-              data-aos="fade-right"
-              data-aos-delay="300"
-              data-aos-duration="1000"
-            >
+            <div class="card-servicos-left" data-aos="fade-right">
               <div class="card-titulo">
                 <h1>Desenvolvimento de Sites</h1>
               </div>
-              <div class="card-icon"><i class="bi bi-share"></i></div>
+              <div class="card-icon"><i class="bi bi-laptop"></i></div>
             </div>
-            <!--Serviço 2-->
-            <div
-              class="card-servicos"
-              data-aos="fade-left"
-              data-aos-delay="400"
-              data-aos-duration="1000"
-            >
+            <div class="card-servicos" data-aos="fade-left">
               <div class="card-titulo">
-                <h1>Criação de Portifólio.</h1>
+                <h1>Landing Pages</h1>
               </div>
-              <div class="card-icon"><i class="bi bi-diagram-3"></i></div>
+              <div class="card-icon"><i class="bi bi-rocket-takeoff"></i></div>
             </div>
-            <!--Serviço 3-->
-            <div
-              class="card-servicos-left"
-              data-aos="fade-right"
-              data-aos-delay="500"
-              data-aos-duration="1000"
-            >
+            <div class="card-servicos-left" data-aos="fade-right">
               <div class="card-titulo">
-                <h1>Atualização de Sites</h1>
+                <h1>Lojas Virtuais</h1>
               </div>
-              <div class="card-icon"><i class="bi bi-globe"></i></div>
-            </div>
-            <!--Serviço 4-->
-            <div
-              class="card-servicos"
-              data-aos="fade-left"
-              data-aos-delay="600"
-              data-aos-duration="1000"
-            >
-              <div class="card-titulo">
-                <h1>Criação de Lojas Virtuais.</h1>
-              </div>
-              <div class="card-icon"><i class="bi bi-currency-dollar"></i></div>
-            </div>
-            <!--Serviço 5-->
-            <div
-              class="card-servicos-left"
-              data-aos="fade-right"
-              data-aos-delay="700"
-              data-aos-duration="1000"
-            >
-              <div class="card-titulo">
-                <h1>Manutenção de Sites.</h1>
-              </div>
-              <div class="card-icon"><i class="bi bi-layers"></i></div>
-            </div>
-            <!--Serviço 6-->
-            <div
-              class="card-servicos"
-              data-aos="fade-left"
-              data-aos-delay="800"
-              data-aos-duration="1000"
-            >
-              <div class="card-titulo">
-                <h1>Criação de Landing Pages.</h1>
-              </div>
-              <div class="card-icon"><i class="bi bi-camera-video"></i></div>
+              <div class="card-icon"><i class="bi bi-cart3"></i></div>
             </div>
           </div>
         </div>
       </section>
       <!--Fim Serviços-->
 
-      <!--Complemento FREE YOUR MIND-->
-      <section id="free-your-mind" class="free-your-mind">
-        <div
-          class="container-free-your-mind"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <div
-            class="line-container"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <span> INOVAÇÃO </span>
-            <span class="line"></span>
-          </div>
-          <div
-            class="line-container center"
-            data-aos="fade-up"
-            data-aos-delay="400"
-            data-aos-duration="1000"
-          >
-            <span class="line"></span>
-            <span> COMEÇA </span>
-            <span class="line"></span>
-          </div>
-          <div
-            class="line-container right"
-            data-aos="fade-up"
-            data-aos-delay="600"
-            data-aos-duration="1000"
-          >
-            <span class="line"></span>
-            <span> AGORA! </span>
-          </div>
-        </div>
-      </section>
-      <!--Fim FREE YOUR MIND-->
-
       <!--Portfolio-->
       <section id="portfolio" class="portfolio">
-        <div
-          class="container-portfolio"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <div class="headline-portfolio">
-            <h1 class="titulo">Portifólio</h1>
-            <span class="descricao"
-              >Veja alguns projetos que já trabalhei!</span
-            >
+        <div class="container-portfolio">
+          <div class="headline-portfolio" data-aos="fade-up">
+            <h1 class="titulo">Portfolio</h1>
+            <p class="descricao">Alguns dos projetos que desenvolvi recentemente.</p>
           </div>
           <div class="container-case">
-            <!--Case 1-->
-            <div class="case1" data-aos="fade-right" data-aos-delay="200">
+            <!-- Case 1 -->
+            <div class="case1" data-aos="fade-up">
               <div class="imagens-case">
                 <div class="slide">
-                  <i class="bi bi-chevron-left prev"></i>
-                  <a href="https://site-fanta-olive.vercel.app/">
-                    <img
-                      src="assets/img/siteFanta-1.png"
-                      alt="imagens do Site"
-                    />
-                    <img 
-                      src="assets/img/siteFanta-2.png" 
-                      alt="imagens do Site">
-                  </a>
-                  <i class="bi bi-chevron-right next"></i>
+                  <img src="assets/img/projeto1.jpg" alt="Projeto 1" />
                 </div>
               </div>
               <div class="textos-case">
                 <div class="conteudo-textos-case">
-                  <h1>Fanta</h1>
-                  <p>Um projeto meu que fiz durante um curso, onde aprendi e coloquei em práticas conceitos de React.js. Esse site ficou simples, mas bem interativo!</p>
-                  <h4>
-                    ESSE SITE FOI DESENVOLVIDO SOMENTE PARA DESKTOP!
-                  </h4>
-                  <span>Projeto Pessoal</span>
+                  <h1>Nome do Projeto</h1>
+                  <p>Descrição breve do projeto e tecnologias utilizadas.</p>
+                  <span>Ver Projeto</span>
                 </div>
               </div>
             </div>
-            <!--Case 2-->
-            <div class="case2" data-aos="fade-left" data-aos-delay="300">
-              <div class="textos-case">
-                <div class="conteudo-textos-case">
-                  <h1>Duty Caffe</h1>
-                  <p>Uma página desenvolvido para uma cafeteria fictícia. Contando um pouco sobre o local e o que servem.</p>
-                  <span>Projeto Pessoal</span>
-                </div>
-              </div>
-              <div class="imagens-case">
-                <div class="slide">
-                  <i class="bi bi-chevron-left prev"></i>
-                  <a href="https://duty-caffe.vercel.app/">
-                    <img src="assets/img/dutyCaffe-1.png" alt="imagens do Site" />
-                    <img src="assets/img/dutyCaffe-2.png" alt="imagens do Site" />
-                    <img src="assets/img/dutyCaffe-3.png" alt="imagens do Site" />
-                  </a>
-                  <i class="bi bi-chevron-right next"></i>
-                </div>
-              </div>
-            </div>
-            <!--Case 3-->
-            <div class="case3" data-aos="fade-right" data-aos-delay="400">
-              <div class="imagens-case">
-                <div class="slide">
-                  <i class="bi bi-chevron-left prev"></i>
-                  <a href="https://vintage-psi.vercel.app/">
-                    <img
-                      src="assets/img/Vintage - 01.png"
-                      alt="imagens do Site"
-                    />
-                    <img
-                      src="assets/img/Vintage - 02.png"
-                      alt="imagens do Site"
-                    />
-                    <img
-                      src="assets/img/Vintage - 03.png"
-                      alt="imagens do Site"
-                    />
-                    <img
-                      src="assets/img/Vintage - 04.png"
-                      alt="imagens do Site"
-                    />
-                    <img
-                      src="assets/img/Vintage - 05.png"
-                      alt="imagens do Site"
-                    />
-                    <img
-                      src="assets/img/Vintage - 06.png"
-                      alt="imagens do Site"
-                    />
-                    <img
-                      src="assets/img/Vintage - 07.png"
-                      alt="imagens do Site"
-                    />
-                    <img
-                      src="assets/img/Vintage - 08.png"
-                      alt="imagens do Site"
-                    />
-                  </a>
-                  <i class="bi bi-chevron-right next"></i>
-                </div>
-              </div>
-              <div class="textos-case">
-                <div class="conteudo-textos-case">
-                  <h1>Aesthetic Vintage</h1>
-                  <p>
-                    Um site sobre a cultura Vintage, com foco nos discos de
-                    vinil, fita cassete e rádio.
-                  </p>
-                  <span>Projeto Pessoal</span>
-                </div>
-              </div>
-            </div>
-            <!-- Case 4 -->
-            <div class="case4" data-aos="fade-left" data-aos-delay="500">
-              <div class="textos-case">
-                <div class="conteudo-textos-case">
-                  <h1>Pet Canto</h1>
-                  <p>Site de um pet shop, onde você consegue ver os serviços que são prestados, os valores desses serviços e ainda tem uma página de formulário, onde você pode mandar uma mensagem agendando um horário para levar seu pet.</p>
-                  <span>Projeto Pessoal</span>
-                </div>
-              </div>
-              <div class="imagens-case">
-                <div class="slide">
-                  <i class="bi bi-chevron-left prev"></i>
-                  <a href="">
-                    <img src="assets/img/pet-pt1.png" alt="imagens do Site" />
-                    <img src="assets/img/pet-pt2.png" alt="imagens do Site" />
-                    <img src="assets/img/pet-pt3.png" alt="imagens do Site" />
-                  </a>
-                  <i class="bi bi-chevron-right next"></i>
-                </div>
-              </div>
-            </div>
-            <!-- Case 5 -->
-            <div class="case5" data-aos="fade-right" data-aos-delay="600">
-              <div class="imagens-case">
-                <div class="slide">
-                  <i class="bi bi-chevron-left prev"></i>
-                  <a href="">
-                    <img src="assets/img/jfs-pt1.png" alt="imagens do Site" />
-                    <img src="assets/img/jfs-pt2.png" alt="imagens do Site" />
-                    <img src="assets/img/jfs-pt3.png" alt="imagens do Site" />
-                    <img src="assets/img/jfs-pt4.png" alt="imagens do Site" />
-                  </a>
-                  <i class="bi bi-chevron-right next"></i>
-                </div>
-              </div>
-              <div class="textos-case">
-                <div class="conteudo-textos-case">
-                  <h1>JFS Climatização</h1>
-                  <p>Um site para uma empresa voltada à climatização e refrigeração de ambientes fechados, como clínicas, salões de beleza, residencial, etc.</p>
-                  <span>Projeto Real</span>
-                </div>
-              </div>
-            </div>
-            <!-- Case 6 -->
-            <div class="case6" data-aos="fade-left" data-aos-delay="700">
-              <div class="textos-case">
-                <div class="conteudo-textos-case">
-                  <h1>Portal de Ajuda</h1>
-                  <p>Um site que foi desenvolvido para a Mostra Pedagógica do Colégio Tancredo de Almeida Neve. Esse projeto foi finalizado em 2 semanas, aprimorei meus conhecimentos em JavaScript e tive a oportunidade de por em prática!</p>
-                  <span>Projeto Real</span>
-                </div>
-              </div>
-              <div class="imagens-case">
-                <div class="slide">
-                  <i class="bi bi-chevron-left prev"></i>
-                  <a href="">
-                    <img src="assets/img/colegio-pt1.png" alt="imagens do Site" />
-                    <img src="assets/img/colegio-pt2.png" alt="imagens do Site" />
-                    <img src="assets/img/colegio-pt3.png" alt="imagens do Site" />
-                    <img src="assets/img/colegio-pt4.png" alt="imagens do Site" />
-                    <img src="assets/img/colegio-pt5.png" alt="imagens do Site" />
-                  </a>
-                  <i class="bi bi-chevron-right next"></i>
-                </div>
-              </div>
-            </div>
-            <!-- Case 7 -->
-            <div class="case7" data-aos="fade-right" data-aos-delay="800">
-              <div class="imagens-case">
-                <div class="slide">
-                  <i class="bi bi-chevron-left prev"></i>
-                  <a href="">
-                    <img src="assets/img/let-pt1.png" alt="imagens do Site" />
-                    <img src="assets/img/let-pt2.png" alt="imagens do Site" />
-                    <img src="assets/img/let-pt3.png" alt="imagens do Site" />
-                    <img src="assets/img/let-pt4.png" alt="imagens do Site" />
-                    <img src="assets/img/let-pt5.png" alt="imagens do Site" />
-                    <img src="assets/img/let-pt6.png" alt="imagens do Site" />
-                  </a>
-                  <i class="bi bi-chevron-right next"></i>
-                </div>
-              </div>
-              <div class="textos-case">
-                <div class="conteudo-textos-case">
-                  <h1>Studio Letícia Pereira</h1>
-                  <p>Um site onde é realizada a apresentação de serviços, fotos de Lash Design, de Design de Sobrancelhas e fotos de Depilação. Meios de contatos, redes sociais e localização.</p>
-                  <span>Projeto Real</span>
-                </div>
-              </div>
-            </div>
+            <!-- Adicione mais cases conforme necessário -->
           </div>
         </div>
       </section>
-      <!--Fim Portfolio-->
 
       <!--Contato-->
       <section id="contato" class="contato">
-        <div
-          class="container-contato"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <div class="headline-contato" data-aos="fade-up" data-aos-delay="200">
+        <div class="container-contato">
+          <div class="headline-contato" data-aos="fade-up">
             <div class="titulo-contato">
               <h1>Contato</h1>
             </div>
             <div class="descricao-contato">
-              <ul class="lista-contato">
-                <li>
-                  <a href="https://wa.link/oayh7h"
-                    >WhatsApp: (45) 99825 - 6277</a
-                  >
-                </li>
-                <li><a href="#">contato.sxfreimann@gmail.com</a></li>
-              </ul>
+              <a href="mailto:contato@sxfreimann.com.br">contato@sxfreimann.com.br</a>
             </div>
           </div>
-          <div class="conteudo-contato" data-aos="fade-up" data-aos-delay="400">
+          <div class="conteudo-contato">
             <div class="formulario-contato">
-              <h2>Entre em contato</h2>
-              <p>Me mande uma mensagem!</p>
-              <form class="form">
-                <input type="text" placeholder="Digite seu nome completo" />
-                <input type="phone" placeholder="(55) 22222-2222" />
-                <input type="email" placeholder="Seu melhor email" />
-                <textarea
-                  name="mensagem"
-                  id="mensagem"
-                  placeholder="Escreva o que você deseja aqui..."
-                ></textarea>
-                <button class="btn">Enviar</button>
+              <form class="form" action="#" method="POST">
+                <input type="text" name="nome" placeholder="Seu Nome" required />
+                <input type="email" name="email" placeholder="Seu E-mail" required />
+                <textarea name="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
               </form>
             </div>
-            <div class="logo-contato" data-aos="fade-up" data-aos-delay="600">
-              <img
-                src="assets/img/entre-contato.png"
-                alt="Uma imagem mostrando os meios de entrar em contato"
-              />
+            <div class="logo-contato">
+              <img src="assets/img/logo-contato.png" alt="SxFreimann" />
             </div>
           </div>
         </div>
       </section>
-      <!--Fim Contato-->
 
       <!--Footer-->
-      <footer class="footer" id="footer">
+      <footer class="footer">
         <div class="container-footer">
           <div class="footer-column logo-column">
-            <img src="assets/img/logo.png" alt="Minha logo" />
+            <img src="assets/img/logo.png" alt="SxFreimann" />
+            <p>Transformando ideias em realidade digital.</p>
           </div>
-          <div class="footer-column menu-column">
+          <div class="footer-column">
+            <h3>Menu</h3>
             <nav class="footer-nav">
               <a href="#inicio">Início</a>
               <a href="#sobre">Sobre</a>
               <a href="#servicos">Serviços</a>
               <a href="#portfolio">Portfolio</a>
-              <a href="#contato">Contato</a>
             </nav>
           </div>
-          <div class="footer-column social-column">
-            <ul class="social-links">
-              <li>
-                <a
-                  href="https://www.instagram.com/sxfreimann/profilecard/?igsh=MTY5eXhlZDk3MGZ3ZA=="
-                  ><i class="bi bi-instagram"></i> Instagram</a
-                >
-              </li>
-              <li>
-                <a href="https://github.com/judyjade"
-                  ><i class="bi bi-github"></i> GitHub</a
-                >
-              </li>
-              <li>
-                <a href="https://wa.link/oayh7h"
-                  ><i class="bi bi-whatsapp"></i> WhatsApp</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/stefany-souza-freimann-52922b312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  ><i class="bi bi-linkedin"></i> LinkedIn</a
-                >
-              </li>
-            </ul>
+          <div class="footer-column">
+            <h3>Redes Sociais</h3>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+              <a href="#"><i class="bi bi-linkedin"></i> LinkedIn</a>
+              <a href="#"><i class="bi bi-github"></i> GitHub</a>
+            </div>
           </div>
         </div>
-        <div class="footer-column credits-column">
-          <p>&copy;Todos os direitos reservados.</p>
-          <p>SxFreimann - 2024.</p>
+        <div class="credits-column">
+          <p>&copy; 2024 SxFreimann. Todos os direitos reservados.</p>
+          <p>Desenvolvido por Stefany Souza Freimann</p>
         </div>
       </footer>
-      <!--Fim Footer-->
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-    <!-- AOS -->
+    <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <!-- Inicialização do AOS -->
     <script>
       AOS.init();
-    </script>
+      
+      // Menu Toggle Logic
+      const menuToggle = document.getElementById('menuToggle');
+      const menuAberto = document.querySelector('.menu-aberto');
+      
+      menuToggle.addEventListener('change', function() {
+        if(this.checked) {
+          menuAberto.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        } else {
+          menuAberto.classList.add('active'); // Para animação de saída se houver
+          setTimeout(() => {
+            menuAberto.classList.remove('active');
+            document.body.style.overflow = 'auto';
+          }, 500);
+        }
+      });
 
-    <!--JavaScript-->
-    <script src="assets/js/header.js"></script>
-    <script src="assets/js/actionButton.js"></script>
-    <script src="assets/js/menu.js"></script>
-    <script src="assets/js/slideSobre.js"></script>
-    <script src="assets/js/slidePortfolio.js"></script>
+      // Close menu on link click
+      document.querySelectorAll('.nav-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+          menuToggle.checked = false;
+          menuAberto.classList.remove('active');
+          document.body.style.overflow = 'auto';
+        });
+      });
+    </script>
   </body>
 </html>
