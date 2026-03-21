@@ -83,10 +83,11 @@
         width: 220px;
         height: 220px;
         margin: 0;
+        z-index: 2;
     }
 
     .complemento-sobre {
-        width: 280px;
+        display: none;
     }
 
     .redes-sociais {
@@ -225,6 +226,10 @@
         grid-template-columns: 1fr;
         text-align: center;
         gap: 3rem;
+    
+        img {
+            width: 70%;
+        }
     }
 
     .logo-column {
