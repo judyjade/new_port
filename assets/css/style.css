@@ -357,7 +357,7 @@ a {
   display: flex;
   align-items: center;
   white-space: nowrap;
-  animation: scroll 30s linear infinite;
+  animation: scroll 15s linear infinite;
 }
 @keyframes scroll {
   0% {
@@ -519,7 +519,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-}
+  }
 .box-skills:hover {
   transform: translateY(-10px);
   background: rgba(255, 255, 255, 0.06);
